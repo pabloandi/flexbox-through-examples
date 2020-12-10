@@ -11,7 +11,14 @@
     </head>
     <body>
 
-        <h1>Flex this</h1>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Forum</a></li>
+                <li class="nav-item"><a href="#">Support</a></li>
+            </ul>
+        </nav>
 
     </body>
 </html>
