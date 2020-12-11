@@ -6,43 +6,42 @@
 
         <title>Laravel</title>
 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="/css/app.css">
 
     </head>
     <body>
 
-        <div class="container">
-            <header>
-                <h1>Laracasts</h1>
-            </header>
+        <ul class="episode-list">
 
-            <main>
-                <aside>
-                    <ul>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                </aside>
+            <li class="episode-list-item">
+                <span class="position">1</span>
+                <h4 class="title"><a href="#">Babel setup</a></h4>
+                <span class="length">9:00</span>
+            </li>
 
-                <div class="primary">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam saepe velit suscipit voluptatum, quidem ipsam temporibus! Iste eaque libero ullam, quas quia expedita amet maxime eum quis ad sed nisi?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam saepe velit suscipit voluptatum, quidem ipsam temporibus! Iste eaque libero ullam, quas quia expedita amet maxime eum quis ad sed nisi?</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam saepe velit suscipit voluptatum, quidem ipsam temporibus! Iste eaque libero ullam, quas quia expedita amet maxime eum quis ad sed nisi?</p>
-                </div>
+            <li class="episode-list-item is-current">
+                <span class="position">2</span>
+                <h4 class="title"><a href="#">ES6 compilation with Laravel Elixir</a></h4>
+                <i class="material-icons">remove_red_eye</i>
+                <span class="length">10:02</span>
+            </li>
 
-            </main>
+            <li class="episode-list-item">
+                <span class="position">3</span>
+                <h4 class="title">
+                    <a href="#">Babel setup</a>
+                </h4>
+                <span class="length">10:02</span>
+            </li>
 
-            <footer>
-                <h5>Laracast</h5>
-                <p>All rights reserved</p>
-            </footer>
-        </div>
+            <li class="episode-list-item">
+                <span class="position">4</span>
+                <h4 class="title"><a href="#">Arrows</a></h4>
+                <span class="length">7:41</span>
+            </li>
+
+        </ul>
 
     </body>
 </html>
