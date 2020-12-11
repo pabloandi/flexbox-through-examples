@@ -9,68 +9,49 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="/css/app.css">
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     </head>
     <body>
 
-        <div class="columns">
-            <div class="column is-2">
-                <div class="box">Hello Word</div>
-            </div>
-            <div class="column">
-                <div class="box">Hello Word</div>
-            </div>
-            <div class="column is-2">
-                <div class="box">Buttons</div>
-            </div>
+        <nav>
+            <div class="nav-left">
 
-        </div>
-
-        <div class="columns">
-            <div class="column is-narrow">
-                <div class="box">Hello Word</div>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    Home
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    About
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                Services
+                </a>
             </div>
-            <div class="column">
-                <div class="box">Hello Word</div>
-            </div>
-            <div class="column">
-                <div class="box">Hello Word</div>
-            </div>
-            <div class="column is-narrow">
-                <div class="box">Hello Word</div>
-            </div>
+            <div class="nav-center">
 
-        </div>
-
-        {{-- <div class="container">
-
-            <div class="columns">
-                <div class="column is-2">
-                    <div class="box">Hello World</div>
-                </div>
-                <div class="column is-8">
-                    <div class="box">Hello World</div>
-                </div>
-                <div class="column is-2">
-                    <div class="box">Buttons</div>
-                </div>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                Facebook
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                Twitter
+                </a>
             </div>
+            <div class="nav-right">
 
-            <div class="columns">
-                <div class="column is-narrow">
-                    <div class="box">Hello World</div>
-                </div>
-                <div class="column">
-                    <div class="box">Hello World</div>
-                </div>
-                <div class="column">
-                    <div class="box">Hello World</div>
-                </div>
-                <div class="column is-narrow">
-                    <div class="box">Hello World</div>
-                </div>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-user-plus" aria-hidden="true"></i>
+                Sign Up
+                </a>
+                <a href="#" class="nav-item">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                Login
+                </a>
             </div>
-
-        </div> --}}
+        </nav>
 
     </body>
 </html>
