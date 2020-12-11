@@ -11,14 +11,38 @@
     </head>
     <body>
 
-        <nav>
-            <ul>
-                <li class="nav-item"><a href="#">Home</a></li>
-                <li class="nav-item"><a href="#">About</a></li>
-                <li class="nav-item"><a href="#">Forum</a></li>
-                <li class="nav-item"><a href="#">Support</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <header>
+                <h1>Laracasts</h1>
+            </header>
+
+            <main>
+                <aside>
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </aside>
+
+                <div class="primary">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam saepe velit suscipit voluptatum, quidem ipsam temporibus! Iste eaque libero ullam, quas quia expedita amet maxime eum quis ad sed nisi?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam saepe velit suscipit voluptatum, quidem ipsam temporibus! Iste eaque libero ullam, quas quia expedita amet maxime eum quis ad sed nisi?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam saepe velit suscipit voluptatum, quidem ipsam temporibus! Iste eaque libero ullam, quas quia expedita amet maxime eum quis ad sed nisi?</p>
+                </div>
+
+            </main>
+
+            <footer>
+                <h5>Laracast</h5>
+                <p>All rights reserved</p>
+            </footer>
+        </div>
 
     </body>
 </html>
