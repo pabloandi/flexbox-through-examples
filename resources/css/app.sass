@@ -1,38 +1,42 @@
-body, html
-    height: 100%
+body
     font-family: sans-serif
 
-body
-    max-width: 500px
+.container
+    width: 1000px
     margin: auto
-    display: flex
-    align-items: center
-    justify-content: center
-
-.box
-    border: 1px solid #cecece
-    padding: 20px
-
-.media
-    display: flex
-    flex: 1
-
-.media-left
-    margin-right: 1em
-
-.media-content
-    flex: 1
     // background: red
 
-.media-content form
+
+.box
+    padding: 20px
+    border: 1px solid grey
+
+    &.is-primary
+        background: black
+
+.columns
     display: flex
-    flex-direction: column
 
-.media-content textarea
+    &.is-multiline
+        flex-wrap: wrap
+
+.columns:not(:last-child)
+    margin-bottom: 20px
+
+.column
     flex: 1
-    min-height: 100px
-    padding: 0
-    margin-bottom: 1em
 
-.media-content-buttons
-    align-self: flex-end
+.column.is-6
+    width: 50%
+    flex: none
+
+.column.is-2
+    width: 16.6667%
+    flex: none
+
+.column.is-4
+    width: 33.3333%
+    flex: none
+
+.column.is-narrow
+    flex: none

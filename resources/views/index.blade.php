@@ -12,13 +12,65 @@
     </head>
     <body>
 
-        <div class="media">
-            <div class="media-left"><img src="http://placehold.it/50x50" alt=""></div>
-            <div class="media-content">
-                <h4>John Doe</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quis omnis. Dolorum fugiat iste, necessitatibus nam neque voluptatem iure sequi quis quidem architecto eius. Cumque quam odit nulla quis et!</p>
+        <div class="columns">
+            <div class="column is-2">
+                <div class="box">Hello Word</div>
             </div>
+            <div class="column">
+                <div class="box">Hello Word</div>
+            </div>
+            <div class="column is-2">
+                <div class="box">Buttons</div>
+            </div>
+
         </div>
+
+        <div class="columns">
+            <div class="column is-narrow">
+                <div class="box">Hello Word</div>
+            </div>
+            <div class="column">
+                <div class="box">Hello Word</div>
+            </div>
+            <div class="column">
+                <div class="box">Hello Word</div>
+            </div>
+            <div class="column is-narrow">
+                <div class="box">Hello Word</div>
+            </div>
+
+        </div>
+
+        {{-- <div class="container">
+
+            <div class="columns">
+                <div class="column is-2">
+                    <div class="box">Hello World</div>
+                </div>
+                <div class="column is-8">
+                    <div class="box">Hello World</div>
+                </div>
+                <div class="column is-2">
+                    <div class="box">Buttons</div>
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="column is-narrow">
+                    <div class="box">Hello World</div>
+                </div>
+                <div class="column">
+                    <div class="box">Hello World</div>
+                </div>
+                <div class="column">
+                    <div class="box">Hello World</div>
+                </div>
+                <div class="column is-narrow">
+                    <div class="box">Hello World</div>
+                </div>
+            </div>
+
+        </div> --}}
 
     </body>
 </html>
