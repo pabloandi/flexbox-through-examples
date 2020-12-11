@@ -13,45 +13,24 @@
     </head>
     <body>
 
-        <nav>
-            <div class="nav-left">
+        <form class="box">
+            <div class="control has-addon">
+                <input type="text" class="control-field" placeholder="Username">
+                <span class="control-addon">
 
-                <a href="#" class="nav-item">
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    Home
-                </a>
-                <a href="#" class="nav-item">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i>
-                    About
-                </a>
-                <a href="#" class="nav-item">
-                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                Services
-                </a>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </span>
             </div>
-            <div class="nav-center">
 
-                <a href="#" class="nav-item">
-                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                Facebook
-                </a>
-                <a href="#" class="nav-item">
-                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                Twitter
-                </a>
-            </div>
-            <div class="nav-right">
+            <div class="control has-addon">
+                <input type="email" class="control-field" placeholder="Email">
+                <span class="control-addon">
 
-                <a href="#" class="nav-item">
-                    <i class="fa fa-user-plus" aria-hidden="true"></i>
-                Sign Up
-                </a>
-                <a href="#" class="nav-item">
-                    <i class="fa fa-sign-in" aria-hidden="true"></i>
-                Login
-                </a>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </span>
             </div>
-        </nav>
+
+        </form>
 
     </body>
 </html>

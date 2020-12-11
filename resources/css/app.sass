@@ -1,31 +1,61 @@
 *
-    padding: 0
     margin: 0
+    padding: 0
 
 html, body
+    height: 100%
+
+body
+    display: flex
+    align-items: center
+    justify-content: center
     font-family: sans-serif
 
-nav
-    display: flex
-    // flex-direction: column
-    justify-content: space-between
-    background: #00b1b3
-    padding: 1em
+.box
+    padding: 20px
+    border: 1px solid #e3e3e3
+    width: 700px
 
-@media screen and ( max-width: 767px )
-    nav
-        display: block
-    nav a
-        display: block
 
-.nav-item
-    color: white
-    padding: 0 1em
-    text-decoration: none
 
-.nav-item:hover
-    text-decoration: underline
+.control
 
-.nav-item > i
-    color: #005152
-    padding-right: 6px
+    &:not(:last-child)
+        margin-bottom: 1em
+
+
+
+    &.has-addon
+        display: flex
+
+        & .control-addon
+            background: #e3e3e3
+            min-width: 25px
+            text-align: center
+
+        & .control-field
+            flex: 1
+            border: 1px solid #e3e3e3
+
+        & .control-field:focus
+            outline: 0
+            border: 1px solid #00b1b3
+            border-right: none
+
+        & .control-field:focus + .control-addon
+            border: 1px solid #00b1b3
+            border-left: none
+            animation: fadeColor 2s
+            animation-iteration-count: infinite
+
+
+
+.control > span
+    background: #e3e3e3
+
+.control > *
+    padding: .8em
+
+@keyframes fadeColor
+    50%
+        color: #026c6d

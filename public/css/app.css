@@ -1,42 +1,77 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 html,
 body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: sans-serif;
 }
 
-nav {
+.box {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  width: 700px;
+}
+
+.control:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.control.has-addon {
   display: flex;
-  justify-content: space-between;
-  background: #00b1b3;
-  padding: 1em;
 }
 
-@media screen and (max-width: 767px) {
-  nav {
-    display: block;
+.control.has-addon .control-addon {
+  background: #e3e3e3;
+  min-width: 25px;
+  text-align: center;
+}
+
+.control.has-addon .control-field {
+  flex: 1;
+  border: 1px solid #e3e3e3;
+}
+
+.control.has-addon .control-field:focus {
+  outline: 0;
+  border: 1px solid #00b1b3;
+  border-right: none;
+}
+
+.control.has-addon .control-field:focus + .control-addon {
+  border: 1px solid #00b1b3;
+  border-left: none;
+  -webkit-animation: fadeColor 2s;
+          animation: fadeColor 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.control > span {
+  background: #e3e3e3;
+}
+
+.control > * {
+  padding: 0.8em;
+}
+
+@-webkit-keyframes fadeColor {
+  50% {
+    color: #026c6d;
   }
+}
 
-  nav a {
-    display: block;
+@keyframes fadeColor {
+  50% {
+    color: #026c6d;
   }
-}
-
-.nav-item {
-  color: white;
-  padding: 0 1em;
-  text-decoration: none;
-}
-
-.nav-item:hover {
-  text-decoration: underline;
-}
-
-.nav-item > i {
-  color: #005152;
-  padding-right: 6px;
 }
 
