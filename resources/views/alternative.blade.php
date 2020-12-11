@@ -12,11 +12,17 @@
     </head>
     <body>
 
-        <div class="media">
-            <div class="media-left"><img src="http://placehold.it/50x50" alt=""></div>
+        <div class="media box">
+            <div class="media-left">
+                <img src="http://placehold.it/50x50" alt=""></div>
             <div class="media-content">
-                <h4>John Doe</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quis omnis. Dolorum fugiat iste, necessitatibus nam neque voluptatem iure sequi quis quidem architecto eius. Cumque quam odit nulla quis et!</p>
+                <form action="">
+                    <textarea ></textarea>
+                    <div class="media-content-buttons">
+                        <button>Clear</button>
+                        <button>Publish</button>
+                    </div>
+                </form>
             </div>
         </div>
 
